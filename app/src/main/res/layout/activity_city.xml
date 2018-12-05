@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".City">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/maintoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="#FFFFFF"
+        >
+
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/btn_res"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/rest"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_hot"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <Button
+        android:id="@+id/btn_hot"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/hotel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <Button
+        android:id="@+id/btn_place"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/place"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_hos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_res"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <Button
+        android:id="@+id/btn_hos"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/hospital"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_hot"
+        app:layout_constraintVertical_bias="0.088" />
+
+    <Button
+        android:id="@+id/btn_seq"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/security"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_place"
+        app:layout_constraintVertical_bias="0.36" />
+</android.support.constraint.ConstraintLayout>

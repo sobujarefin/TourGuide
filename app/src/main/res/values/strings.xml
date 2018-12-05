@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="newtext">TextView</string>
+    <string name="restaurant_name">Name</string>
+    <string name="description">Description</string>
+    <string name="image">TODO</string>
+</resources>
